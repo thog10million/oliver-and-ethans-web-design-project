@@ -1,0 +1,52 @@
+<body>
+  <div id="nav-bar">
+    <div class="gridthing">main</div>
+    <div class="gridthing">minecraft pk</div>
+    <div class="gridthing">crack cocaine</div>
+  </div>
+  <div id="header">
+    <h1>
+      minecraft parkour
+    </h1>
+  </div>
+  <div id="main-content">
+    <p>
+    minecraft parkour is a thing where you jump in minecraft and you try to not fall off of the blocks
+    </p>
+  </div>
+</body>
+
+<style>
+  #nav-bar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 30px;
+  }
+  
+  .gridthing {
+    border: 1px solid #000000;
+    margin: auto 1px;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  #main-content {
+    border: 1px solid #000000;
+    height: 1000px;
+    margin: 30px 10px;
+    padding: 10px;
+  }
+  
+  #header {
+    border: 1px solid #000000;
+    height: 50px;
+    margin: 10px 10px;
+    text-align: center;
+    padding-bottom: 10px;
+  } 
+  
+  h1 {
+    line-height: 50%;
+  }
+  
+</style>
