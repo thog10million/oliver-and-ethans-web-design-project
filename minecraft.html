@@ -22,31 +22,38 @@
     minecraft parkour is a thing where you jump in minecraft and you try to not fall off of the blocks
     </p>
   </div>
+  <div id="footer">
+    <p>
+    follow us on twitter
+    </p>
+  </div>
 </body>
 <style>
 
   body {
     background-color: #801336;
-    padding:0px;  
+    padding: 0px;  
+    min-height: 100vh;
   }
   
   p {
     color: #2d132c;
-    letter-spacing: 0.2px;
     font-family: 'Lexend Deca', sans-serif;
     padding-left: 20px;
+    font-size: 24px;
   }
     
   h1 {
     color: #2d132c;
-    padding-top: 10px;
+    padding-top: 2px;
     font-family: 'Lexend Deca', sans-serif;
+    font-size: 40px;
   }
   
   #nav-bar {
     position: fixed;
     display: grid;
-    grid-template-columns: repeat(4, 300px);
+    grid-template-columns: repeat(4, auto);
     background-color: #2d132c;
     z-index: 9;
     width: 100%;
@@ -65,24 +72,36 @@
     color: #801336;
   }
   
+  #header {
+    position: relative;
+    background-color: #c72c41;
+    height: 50px;
+    margin: 10px;
+    text-align: center;
+    padding-bottom: 10px;
+    top: 50px;
+  } 
+  
   #main-content {
     background-color: #c72c41;
-    height: 1000px;
-    margin: 30px 10px;
+    min-height: 100vh;
+    margin: 30px 10px 80px;
     padding: 10px;
     position: relative;
     top: 50px;
   }
   
-  #header {
-    position: relative;
+  #footer {
     background-color: #c72c41;
-    height: 50px;
-    margin: 10px 10px;
+    margin: 10px;
     text-align: center;
-    padding-bottom: 10px;
-    top: 50px;
-  } 
+    height: 50px;
+  }
+  
+  #footer p {
+    position: relative;
+    top: 8px;
+  }
   
   a:link {
   text-decoration: none;
