@@ -34,6 +34,7 @@
     background-color: #801336;
     padding: 0px;  
     min-height: 100vh;
+    position: relative;
   }
   
   p {
@@ -48,6 +49,12 @@
     padding-top: 2px;
     font-family: 'Lexend Deca', sans-serif;
     font-size: 40px;
+  }
+  
+  body::after {
+     content: ''; 
+     display: block;
+     height: 40px; 
   }
   
   #nav-bar {
@@ -84,28 +91,30 @@
   
   #main-content {
     background-color: #c72c41;
-    min-height: 100vh;
     margin: 30px 10px 80px;
-    padding: 10px;
+    padding: 5px 10px;
     position: relative;
     top: 50px;
   }
   
   #footer {
     background-color: #c72c41;
-    margin: 10px;
     text-align: center;
-    height: 50px;
+    position: absolute; 
+    margin: 10px;
+    bottom: -20px;  
+    width: calc(100% - 20px);
+    height: 50px; 
   }
   
   #footer p {
     position: relative;
-    top: 8px;
+    bottom: 15px;
   }
   
   a:link {
   text-decoration: none;
-  }
+  
 
   a:visited {
     text-decoration: none;
