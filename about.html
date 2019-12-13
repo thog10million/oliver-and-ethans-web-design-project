@@ -14,8 +14,10 @@
       <a href="about.html"><div class="gridthing">ABOUT</div></a>
       <a href="contact.html"><div class="gridthing">CONTACT</div></a>
     </div>
-    <h1 class="fattext">ABOUT UPSILAMBA</h1>
-    <h2 class="lessfattext">Our goal is to sell shirts.</h2>
+    <div class="image">
+      <span class="float">about upsilamba</span>
+    </div>
+    <span class="about-text">we make shirts</span>
     <div id="footer">
       <a href="https://twitter.com/nopechef"><p>follow us on tiwtter</p></a>
     </div>
@@ -38,6 +40,7 @@
     color: #2d132c;
     font-family: 'Lexend Deca', sans-serif;
     font-size: 24px;
+    text-align: center;
   }
 
   h1, h2 {
@@ -100,7 +103,43 @@
     bottom: 15px;
     padding: none;
   }
+    
+  .image {
+    background-image: url("https://picstatio.com/download/2048x1152/8c75bb/sunset-nature-minimal-4k.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 800px;
+    width: 100%;
+  }
 
+  .float {
+    text-align: center;  
+    color: #2d132c;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 24px;
+    position: absolute;
+    top: 50%;
+    padding: 10px;
+    background-color: #c72c41;
+    text-align: center;
+    
+  }
+    
+  .about-text {
+    text-align: center;  
+    color: #2d132c;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 24px;
+    position: absolute;
+    top: 60%;
+    padding: 10px;
+    background-color: #c72c41;
+    left: 44%;
+    
+  }
+    
   a:link {
     text-decoration: none;
   }
@@ -112,5 +151,4 @@
     text-decoration: underline #801336;
   }
   </style>
-
 </html>
