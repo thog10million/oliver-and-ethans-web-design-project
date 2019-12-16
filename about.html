@@ -15,9 +15,13 @@
       <a href="contact.html"><div class="gridthing">CONTACT</div></a>
     </div>
     <div class="image">
-      <span class="float">about upsilamba</span>
+      <div class="center">
+        <span class="float">about upsilamba</span>
+        <div class="space"></div>
+        <span class="about-text">we make shirts</span>
+      </div
     </div>
-    <span class="about-text">we make shirts</span>
+    
     <div id="footer">
       <a href="https://twitter.com/nopechef"><p>follow us on tiwtter</p></a>
     </div>
@@ -110,21 +114,16 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 800px;
-    width: 100%;
+    min-height: 1600px;
   }
 
   .float {
-    text-align: center;  
     color: #2d132c;
     font-family: 'Lexend Deca', sans-serif;
     font-size: 24px;
-    position: absolute;
-    top: 50%;
     padding: 10px;
     background-color: #c72c41;
-    text-align: center;
-    
+    margin-bottom: 40px;
   }
     
   .about-text {
@@ -132,14 +131,22 @@
     color: #2d132c;
     font-family: 'Lexend Deca', sans-serif;
     font-size: 24px;
-    position: absolute;
-    top: 60%;
     padding: 10px;
     background-color: #c72c41;
-    left: 44%;
-    
   }
     
+  .center { 
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 20%;
+    width: 100%;
+    }
+    
+  .space {
+    height: 700px;
+  }  
+  
   a:link {
     text-decoration: none;
   }
