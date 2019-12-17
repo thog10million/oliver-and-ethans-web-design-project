@@ -43,7 +43,7 @@
     min-height: calc(100vh - 60px);
     position: relative;
   }
-
+  
   p {
     color: #2d132c;
     font-family: 'Lexend Deca', sans-serif;
@@ -82,16 +82,14 @@
   .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 0 200px;
     padding: 10px;
+    text-align: center;
   }
 
   .grid-item {
-    left: 60px;
     font-size: 30px;
-    content-align: center;
     width: 300px;
-    position:relative;
+    justify-items: center;
   }
 
   .gridthing {
@@ -165,12 +163,9 @@
   }
 
   .shop-item-title {
-    color: #2d132c;
-    background-color: #c72c41;
     font-family: 'Lexend Deca', sans-serif;
     font-size: 24px;
-    text-align: center;
-    width: calc(100% - 60px);
+    width: 400px;
     background:
 		  linear-gradient(135deg, transparent 10px, #c72c41 0) top left,
 		  linear-gradient(225deg, transparent 0px, #c72c41 0) top right,
@@ -178,6 +173,9 @@
 	  	linear-gradient(45deg,  transparent 0px, #c72c41 0) bottom left;
   	background-size: 50% 50%;
   	background-repeat: no-repeat;
+        justify-items: center;
+    display: inline-block;
+    margin-bottom: 100px;
   }
 
 
