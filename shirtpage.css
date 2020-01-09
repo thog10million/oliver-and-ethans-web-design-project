@@ -102,8 +102,10 @@
     font-size: 36px;
   }
   select {
-   left: 50% !important;
-   right: auto !important;
-   text-align: center !important;
-   transform: translate(-50%, 0) !important;
+    justify-items: center;
+    text-align: center;
+  }
+  .blueselector {
+    text-align: center;
+    margin: 44px auto;
   }
