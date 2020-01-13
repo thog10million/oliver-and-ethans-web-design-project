@@ -98,7 +98,7 @@
     width: 400px;
     padding-left: 100px;
   }
-  .cost {
+  #cost {
     font-size: 36px;
   }
   select {
