@@ -29,14 +29,20 @@
       </select>
     </div>
     <div class="amountselector">
-    <input type="number" name="howmany" value="1">
+    <input type="number" id="numbah" min="1" value="1" onchange="getNumbah()">
     </div>
     <p>COST:</p>
-    <p class="cost">$29</p>
+    <p id="cost">$29</p>
     <p>to purchase please email send.me.ur.food@gmail.com</p>
 
     <div id="footer">
-      <a href="https://twitter.com/nopechef"><p>follow us on tiwtter</p></a>
+      <a href="https://twitter.com/nopechef" target="_blank"><p>follow us on tiwtter</p></a>
     </div>
   </body>
+  <script>
+    function getNumbah() {
+      var yeah = document.getElementById('numbah').value;
+      document.getElementById("cost").innerHTML = "$" + yeah * 29;
+    }
+  </script>
 </html>
