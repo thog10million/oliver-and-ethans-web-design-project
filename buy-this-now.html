@@ -29,7 +29,7 @@
       </select>
     </div>
     <div class="amountselector">
-      <input type="number" id="numbah" min="1" value="1" onchange="getNumbah">
+      <input type="number" id="numbah" min="1" value="1" onchange="getNumbah()">
     </div>
     <p>COST:</p>
     <p id="cost">$109</p>
@@ -39,20 +39,6 @@
       <a href="https://twitter.com/nopechef" target="_blank"><p>follow us on tiwtter</p></a>
     </div>
   </body>
-  <style>
-    .scratch {
-      color: #ffffff;
-    }
-    .scratch:link {
-      text-decoration: none;
-    }
-    .scratch:visited {
-      text-decoration: none;
-    }
-    .scratch:hover {
-      text-decoration: underline #ffffff;
-    }
-  </style>
   <script>
     function getNumbah() {
       var yeah = document.getElementById('numbah').value;
