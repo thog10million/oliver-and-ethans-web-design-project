@@ -113,3 +113,16 @@
     text-align: center;
     margin: 22px auto;
   }
+
+    .scratch {
+      color: #ffffff;
+    }
+    .scratch:link {
+      text-decoration: none;
+    }
+    .scratch:visited {
+      text-decoration: none;
+    }
+    .scratch:hover {
+      text-decoration: underline #ffffff;
+    }
