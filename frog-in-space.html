@@ -41,8 +41,8 @@
   </body>
   <script>
     function getNumbah() {
-      var yeah = document.getElementById('numbah').value;
-      document.getElementById("cost").innerHTML = "$" + yeah * 199;
+      var yeah = document.getElementById('numbah').value * 199;
+      document.getElementById("cost").innerHTML = "$" + yeah.toLocaleString();
     }
   </script>
 </html>
