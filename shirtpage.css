@@ -126,3 +126,11 @@
     .scratch:hover {
       text-decoration: underline #ffffff;
     }
+.purchase-button {
+  color: #ffffff;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 24px;
+  text-align: center;
+  margin: 10px auto;
+  margin-top: 80px;
+}
